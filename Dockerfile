@@ -10,4 +10,4 @@ HEALTHCHECK --interval=5s \
             CMD curl -f http://3.88.251.144:8080/ || exit 1
 
 # tell docker what port to expose
-EXPOSE 8000
+EXPOSE 8080
